@@ -1,0 +1,93 @@
+body {
+  background: hsl(217, 54%, 11%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.nft-img {
+  width: 235px;
+  height: 260px;
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+.card {
+  background: hsl(216, 50%, 16%);
+  width: 290x;
+  padding: 20px 20px;
+  display: grid;
+  justify-items: center;
+  flex-wrap: wrap;
+  border-radius: 8px;
+  box-shadow: 0 0 20px 5px rgba(0, 0, 0, 0.3), 0 0 15px 10px rgba(0, 0, 0, 0.1);
+  text-align: start;
+}
+h1 {
+  color: #fff;
+  font-size: 20px;
+  margin-bottom: 15px;
+}
+p {
+  font-size: 15px;
+  color: hsl(215, 51%, 70%);
+  margin-bottom: 30px;
+}
+.spans {
+  display: flex;
+  justify-content: space-between;
+}
+.eth {
+  color: hsl(178, 100%, 50%);
+  font-weight: 600;
+  font-size: 15px;
+  display: flex;
+  align-items: center;
+}
+.eth::before {
+  background: url(/images/icon-ethereum.svg) no-repeat center center;
+  content: "";
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  margin-right: 2px;
+}
+.days {
+  color: hsl(215, 51%, 70%);
+  display: flex;
+  align-items: center;
+}
+.days::before {
+  background: url(/images/icon-clock.svg) no-repeat center center;
+  content: "";
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  margin-right: 2px;
+}
+.linha {
+  height: 2px;
+  background-color: #c7cbd618;
+  margin: 20px 0;
+  width: 100%;
+}
+footer {
+  color: hsl(215, 51%, 70%);
+  font-size: 13px;
+  margin-bottom: 8px;
+}
+footer strong {
+  color: #fff;
+}
+footer::before {
+  background: url(/images/image-avatar.png) no-repeat center center;
+  content: "";
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  margin-right: 10px;
+  border-radius: 15px;
+  background-size: cover;
+  border: #fff solid 1px;
+  vertical-align: middle;
+}
